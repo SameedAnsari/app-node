@@ -1,0 +1,19 @@
+Druid is a column-oriented, open-source, distributed data store written in Java. Druid is designed to quickly ingest massive quantities of event data, and provide low-latency queries on top of the data
+// } else if (req.url == '/auth') {
+        //     if (req.method.toLocaleLowerCase() == 'post') {
+        //         console.log(req.url)
+        //         let creds = '';
+        //         req.on("data", (data) => {
+        //             creds += data;
+        //         });
+
+        //         req.on('end', () => {
+        //             let user = JSON.parse(creds);
+        //             console.log(user);
+        //             user.token = crypto.createHash('md5').update(user.password).digest('hex');
+        //             userArray.push(user);
+        //             res.write('Success ');
+        //             res.end('Passed');
+        //         });
+
+        //     }
